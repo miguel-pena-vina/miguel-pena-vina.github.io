@@ -1,7 +1,14 @@
-const percentages = [0.9, 0.8, 0.7]
+const percentages = [0.95, 0.8, 0.7]
 const sets = [3, 5]
 const elementId = ["verPush", "horPush","verPull","horPull","kneeExt","hipHinge"]
 
+function saveWorkout(){
+  const inputs = document.querySelectorAll(".repInput");
+
+  //For the RM we will be using the O´Connor formula
+
+  console.log(inputs[0].value);
+}
 
 function writeToElement(elementId , exerciseData){
 
@@ -20,11 +27,22 @@ function writeToElement(elementId , exerciseData){
   var text = `${selected[0]} ${load}`;
 
   for (var i = 0; i < selectedSets; i++){
-    text += `  __  `;
+    text += 
+`
+      <input 
+        type="number"
+        class="repInput"
+        placeholder="reps"
+        min="0"
+        data-exercise = "${selected[0]}"
+        style="width:50px; margin-left:6px;"
+      >
+    `;
+
   }
 
-
-  document.getElementById(elementId).textContent = text;
+  document.getElementById(elementId).innerHTML = text;
+  //document.getElementById(elementId).textContent = text;
 
 
 }
