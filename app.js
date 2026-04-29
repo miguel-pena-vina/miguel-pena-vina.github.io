@@ -1,4 +1,4 @@
-const percentages = [0.95, 0.9, 0.8, 0.7]
+const percentages = [0.9, 0.8, 0.7]
 const sets = [3, 5]
 const elementId = ["verPush", "horPush","verPull","horPull","kneeExt","hipHinge"]
 
