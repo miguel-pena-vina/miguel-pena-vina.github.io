@@ -1,0 +1,40 @@
+{
+"vertical pushing":{
+    "Sitting shoulder press":16,
+    "Standing shoulder press": 14,
+    "Pike push up": 0  
+},
+"horizontal pushing":{
+    "Bench press": 25,
+    "Incline press": 20,
+    "Decline press": 16,
+    "Push up": 0
+},
+"vertical pulling":{
+    "Pull up (black+)": 0,
+    "Pull up (purple)": 0,
+    "Pull up" : 0
+},
+"horizontal pulling":{
+    "Bent over row": 36,
+    "Bench supported row": 40,
+    "Incline row knee": 0,
+    "Incline row straight leg": 0 
+},
+"knee extension":{
+    "Goblet squat": 42,
+    "Split squat": 30,
+    "Archer squat": 10,
+    "Single leg squat (negative)": 0,
+    "Sumo squat": 32
+},
+"hip hinge":{
+    "KB swing": 40,
+    "Single leg RDL": 30,
+    "RDL": 30,
+    "Deadlift": 110
+}
+
+
+}
+

@@ -2,10 +2,12 @@ const CACHE_NAME = "workout-cache-v1";
 const FILES_TO_CACHE = [
   "./",
   "./index.html",
-  "./app.js",
   "./style.css",
-  "./manifest.json"
+  "./manifest.json",
+  "./exercises.json",
+  "./app.js"
 ];
+//  "./app.js",
 
 self.addEventListener("install", event => {
   event.waitUntil(
